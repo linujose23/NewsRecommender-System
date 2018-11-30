@@ -18,7 +18,7 @@ the Cleaning of the Articles is done through Clean_Tokenize Function that has be
 
 * We Vectorize it after Giving our self Vocabulary (Final_vocab) in Tfidf Vectorizor thus we get the Vectors in the form of Matrix shape(4831 docs and some length of words in columns). 
 
-* Now we used LatentDirichletAllocation(Topic-Modelling) in order to get Articles and Topics(which are Pre Trained in Neural Networks thus we only need to use it) here i have given 8 topics so our matrix we get will be (4831,8) 4831 docs and 8 Topics.
+* Now we used LatentDirichletAllocation(Topic-Modelling) in order to get Articles and Topics(which are Pre Trained in Neural Networks thus we only need to use it) here i have given 10 topics so our matrix we get will be (4831,10) 4831 docs and 10 Topics.
 
 * Now we split it word by word to Calculate the average time to be spent by user to read the Article as mentioned down the Formula used here below.
 
