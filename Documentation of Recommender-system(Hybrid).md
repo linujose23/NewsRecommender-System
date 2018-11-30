@@ -3,7 +3,7 @@
 
 
 
-* First we imported all the required Functions like Numpy(For numerical Operations),sklearn Cosine,NLTK Functions,Counter function to get unique words only we used it here we pick the keys.
+* First we imported all the required Functions like Numpy(For numerical Operations),sklearn Cosine Similarity,NLTK Functions,Counter function to get unique words only we used it here we pick the keys.
 ,Pandas For Reading Data (News.csv)
 For Vectorizing our Articles after removing all the un-necessary elements like Regular Expression and Tokenizing our Articles For (Vectorizing and to lighten our matrix)
 the Cleaning of the Articles is done through Clean_Tokenize Function that has been created for cleaning the data and NLP functions have also been used to further process the data.
