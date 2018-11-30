@@ -130,20 +130,18 @@ the Cleaning of the Articles is done through Clean_Tokenize Function that has be
  
  #Trending Approach implemented :
 
-* so now we in addition we would also like to Recommend Trending Articles that are mostly been read by most so we take mean of    exisiting user profile and then we take cosine similarity of common interest of the existing users and LDA matrix thus we get more Trending similar articles to recommend.
+* so now we in addition we would also like to Recommend Trending Articles that are mostly been read by most so we take mean of    exisiting user profile and then we take cosine similarity of common interest of the existing users and LDA matrix thus we get more Trending similar articles to recommend and we pick top 10 Trending articles.
 
 
 #Hybrid apporach :
 
-now we add all the interests Content+collaborative+Trending scores to get a Hybrid score then we take cosine similarity of the the Hybrid Interest we get and the LDA matrix that we have to get our Hybrid Recommendation scores now we use argsort and reverse the same to get the indexes and of our similar Hybrid articles that are a mixture of content,collaborative and Trending articles and finally we recommend the articles to the users.
+now we add all the interests Content+collaborative+Trending scores to get a Hybrid score then we take cosine similarity of the the Hybrid Interest we get and the LDA matrix in order to get our Hybrid Recommendation scores now we use argsort and reverse the same to get the indexes of our similar Hybrid articles that are a mixture of content,collaborative and Trending articles and finally we recommend the articles to the users.
   
  
  
  
  #Recommending Articles based on Hybrid Apporoach :
- 
- * now we used Argsort Function which returns the indexes of Maximum Values out of 1 and Reverse the result in order to get the    maximum scores so maximum scores means the indexes of Articles the users are most interested in
-   we thus pick Top five articles to recommend after reversing it to descending order thus we get max value indexes of Articles at    top and Finally we Recommend the Titles of articles as per our Top five indexes or user Interested Articles.
-   
+
+   * We thus Finally  Recommend the top 20 Titles of articles.   
    **********************************************************************************************************************************
 
