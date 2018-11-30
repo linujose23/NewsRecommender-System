@@ -1,5 +1,7 @@
                                             NewsRecommender-System(Hybrid)
 
+* A Project on News-Recommender System in which the mixture of both the approaches Collaborative Filtering and Content-Based is used to build a Hybrid Recommendation Model with a variation of 30% content based articles been recommended and 40% of Collaborative Filtering Based and 30% of Trending Articles among users been recommended to the user.
+
 
 #Processing of Data and Vectorizing
 
